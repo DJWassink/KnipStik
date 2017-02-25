@@ -1,0 +1,69 @@
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-default {
+    font-size: 18px;
+    background-color: rgba(255, 102, 0, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+@media (min-width: 768px) {
+    #custom-bootstrap-menu {
+        padding: 10px 20px;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        transition: all .25s ease-in-out;
+    }
+    .navbar-default {
+        border-radius: 3px;
+    }
+    .navbar-nav>li>a {
+        padding: 25px 20px;
+    }
+    .navbar-brand {
+        padding: 25px;
+        font-size: 28px;
+        line-height: 20px;
+        height: 71px;
+    }
+    #custom-bootstrap-menu.top-nav-collapse {
+        top: 0;
+        padding: 0;
+    }
+}
+@media (min-width: 991px) {
+    #custom-bootstrap-menu {
+        padding: 3% 7%;
+    }
+}
+#custom-bootstrap-menu .navbar-brand:hover {
+    background-color: rgba(255, 130, 46, 1);
+}
+.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 102, 0, 1);
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 130, 46, 1);
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 130, 46, 1);
+}
+.navbar-default .navbar-toggle {
+    border-color: #ff822e;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #ff822e;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ff822e;
+}
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ff6600;
+}

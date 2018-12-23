@@ -36,8 +36,8 @@ header {
         padding-top: 80px;
     }
 }
-#gmap_canvas {
-    height: 275px;
+#gmap {
+    min-height: 350px;
     width: 100%;
 }
 .content-panel {
